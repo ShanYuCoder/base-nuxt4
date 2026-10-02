@@ -1,0 +1,62 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Leftover Next.js build dir (portal is Nuxt-only)
+.next
+
+# Accidental Nuxt CLI output (wrong flags — Nuxt coi tên này là rootDir)
+--host/
+--port/
+
+# Node dependencies
+node_modules
+.pnpm-store
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Storybook
+storybook-static
+
+# Generated stories (keep hand-written stories in /stories)
+stories/auto/
+
+# Test coverage reports
+coverage/
+
+# Playwright artifacts
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Nuxt E2E build dir (tách khỏi .nuxt dev)
+.nuxt-e2e
+
+# Local env files
+.env
+.env.*
+!.env.example
+!docker/.env.example
+docker/.env
+
+# Toolkit-generated entries (harness .cursor/, agent wiring, platform maps,
+# package install-state) are merged here by each toolkit's `init` — do not
+# hand-maintain them. Template SSOT: platform-dna/TODO-GITIGNORE.md.
+
+# CodeGraph local index (external tool — keep default ignore)
+.codegraph/
+.codegraph-*/

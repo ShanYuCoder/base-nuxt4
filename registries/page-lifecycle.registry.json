@@ -1,0 +1,4 @@
+{
+  "$schema": "./page-lifecycle.registry.schema.json",
+  "routes": {}
+}
